@@ -15,30 +15,30 @@
 
 ##GET 
 
-    Executa a lista de tarefas.
+Executa a lista de tarefas.
 
-    ```
-    http://localhost:8000/api-auth
-    ``` 
+```
+http://localhost:8000/api-auth
+``` 
 
 ##POST
 
-    Executa a criação de novas tarefas.
+Executa a criação de novas tarefas.
 
-    ```
-    http://localhost:8000/api-auth/create
-    ``` 
+```
+http://localhost:8000/api-auth/create
+``` 
 
-    ###BODY raw
+###BODY raw
 
-    ```
-    {
-        "Titulo": "Testando",
-        "Descricao": "",
-        "Data": "2022-08-26",
-        "Completado": false
-    }
-    ```
+```
+{
+   "Titulo": "Testando",
+   "Descricao": "",
+   "Data": "2022-08-26",
+   "Completado": false
+}
+```
 
 ##PUT
 
@@ -48,18 +48,17 @@ Executa a leitura de uma tarefa já existente e insere as alterações. Perceba 
 http://localhost:8000/api-auth/id_tarefa/
 ```
 
-    ###BODY raw
-
-    ```
-    {
-        "id": 6,
-        "Titulo": "Testando",
-        "Descricao": "Adicionando informações",
-        "Data": "2022-08-26",
-        "Completado": false
-    }
-    ```
-
+###BODY raw
+ 
+```
+{
+   "id": 6,
+   "Titulo": "Testando",
+   "Descricao": "Adicionando informações",
+   "Data": "2022-08-26",
+   "Completado": false
+}
+```
 
 ##DEL
 
@@ -73,11 +72,11 @@ http://localhost:8000/api-auth/delete/id_tarefa
 
 Além dos links disponibilizados, utilizei algumas outras fontes que me ajudaram a desenvolver este backend e integrar ao frontend. 
 
-- <a href="https://www.youtube.com/watch?v=evihDSZuO70" target="_blank">
-- <a href="https://jacksongomesbr.gitbooks.io/desenvolvimento-web-front-end-com-angular/content/servicos.html" target="_blank">
-- <a href="https://pypi.org/project/django-cors-headers/" target="_blank">
-- <a href="https://www.youtube.com/watch?v=G_IyMUm7Za0&t=1095s" target="_blank">
-- <a href="https://onebitcode.com/documentar-api-postman/" target="_blank">
+<a href="https://www.youtube.com/watch?v=evihDSZuO70" target="_blank">
+<a href="https://jacksongomesbr.gitbooks.io/desenvolvimento-web-front-end-com-angular/content/servicos.html" target="_blank">
+<a href="https://pypi.org/project/django-cors-headers/" target="_blank">
+<a href="https://www.youtube.com/watch?v=G_IyMUm7Za0&t=1095s" target="_blank">
+<a href="https://onebitcode.com/documentar-api-postman/" target="_blank">
 
 ## Autor 👨‍🎨:
 Ricardo Lima | Estudante de desenvolvimento
