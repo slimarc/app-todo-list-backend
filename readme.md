@@ -79,3 +79,9 @@ Além dos links disponibilizados, utilizei algumas outras fontes que me ajudaram
 - <a href="https://www.youtube.com/watch?v=G_IyMUm7Za0&t=1095s" target="_blank">
 - <a href="https://onebitcode.com/documentar-api-postman/" target="_blank">
 
+## Autor 👨‍🎨:
+Ricardo Lima | Estudante de desenvolvimento
+<div>
+    <a href="mailto:sricardolimaa@gmail.com" target="_blank"><img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white"target="_blank"></a> 
+    <a href="https://www.linkedin.com/in/slimarc/" target="_blank"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" target="_blank"></a> 
+</div>
