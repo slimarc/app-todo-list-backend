@@ -1,10 +1,10 @@
 <h1 align="center">Backend To-Do List 📑</h1>
 
-##Sobre 🔎:
+## Sobre 🔎:
 
 <p align="justify">Um aplicativo to-do list faz o gerencimento de tarefas, nele você pode inserir, editar ou excluir uma tarefa, além de poder marcá-la como completada. O backend desta api foi desenvolvido com Django Rest que é um framework web Phyton.</p>
 
-##Requisitos :blue_book::
+## Requisitos :blue_book::
 
 - Exibir a lista de TODOs;
 - Adicionar novos TODOs;
@@ -13,7 +13,7 @@
 - Marcar TODO como completo;
 - A aplicação deveria conversar com o backend via JSONs.
 
-##GET 
+## GET 
 
 Executa a lista de tarefas.
 
@@ -21,7 +21,7 @@ Executa a lista de tarefas.
 http://localhost:8000/api-auth
 ``` 
 
-##POST
+## POST
 
 Executa a criação de novas tarefas.
 
@@ -29,7 +29,7 @@ Executa a criação de novas tarefas.
 http://localhost:8000/api-auth/create
 ``` 
 
-###BODY raw
+### BODY raw
 
 ```
 {
@@ -40,7 +40,7 @@ http://localhost:8000/api-auth/create
 }
 ```
 
-##PUT
+## PUT
 
 Executa a leitura de uma tarefa já existente e insere as alterações. Perceba que é necessário incluir o id correspondente a tarefa à URL.
 
@@ -48,7 +48,7 @@ Executa a leitura de uma tarefa já existente e insere as alterações. Perceba 
 http://localhost:8000/api-auth/id_tarefa/
 ```
 
-###BODY raw
+### BODY raw
  
 ```
 {
@@ -60,7 +60,7 @@ http://localhost:8000/api-auth/id_tarefa/
 }
 ```
 
-##DEL
+## DEL
 
 Executa a exclusão da tarefa.
 
@@ -68,15 +68,15 @@ Executa a exclusão da tarefa.
 http://localhost:8000/api-auth/delete/id_tarefa
 ```
 
-##O que me ajudou:
+## O que me ajudou:
 
 Além dos links disponibilizados, utilizei algumas outras fontes que me ajudaram a desenvolver este backend e integrar ao frontend. 
 
-<a href="https://www.youtube.com/watch?v=evihDSZuO70" target="_blank">
-<a href="https://jacksongomesbr.gitbooks.io/desenvolvimento-web-front-end-com-angular/content/servicos.html" target="_blank">
-<a href="https://pypi.org/project/django-cors-headers/" target="_blank">
-<a href="https://www.youtube.com/watch?v=G_IyMUm7Za0&t=1095s" target="_blank">
-<a href="https://onebitcode.com/documentar-api-postman/" target="_blank">
+- <p><a href="https://www.youtube.com/watch?v=evihDSZuO70" target="_blank"></p>
+- <p><a href="https://jacksongomesbr.gitbooks.io/desenvolvimento-web-front-end-com-angular/content/servicos.html" target="_blank"></p>
+- <p><a href="https://pypi.org/project/django-cors-headers/" target="_blank"></p>
+- <p><a href="https://www.youtube.com/watch?v=G_IyMUm7Za0&t=1095s" target="_blank"></p>
+- <p><a href="https://onebitcode.com/documentar-api-postman/" target="_blank"></p>
 
 ## Autor 👨‍🎨:
 Ricardo Lima | Estudante de desenvolvimento
