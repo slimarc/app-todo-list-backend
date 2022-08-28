@@ -68,7 +68,7 @@ Executa a exclusão da tarefa.
 http://localhost:8000/api-auth/delete/id_tarefa
 ```
 
-## O que me ajudou:
+## O que me ajudou :link::
 
 Além dos links disponibilizados, utilizei algumas outras fontes que me ajudaram a desenvolver este backend e integrar ao frontend. 
 
@@ -78,7 +78,19 @@ Além dos links disponibilizados, utilizei algumas outras fontes que me ajudaram
 -  [To-Do List API using Django Rest Framework](https://www.youtube.com/watch?v=G_IyMUm7Za0&t=1095s)
 -  [Como documentar API usando o Postman](https://onebitcode.com/documentar-api-postman/)
 
-## Autor 👨‍🎨:
+
+## Postman :triangular_flag_on_post::
+
+-  [Documentação postman](https://documenter.getpostman.com/view/23048135/VUxKSUdQ#intro)
+
+## Tecnologias :rocket::
+
+<div>
+    <img height="60" width="70" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original-wordmark.svg"/>
+    <img height="70" width="90" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/django/django-plain-wordmark.svg"/>     
+</div>
+
+## Autor :wave::
 Ricardo Lima | Estudante de desenvolvimento
 <div>
     <a href="mailto:sricardolimaa@gmail.com" target="_blank"><img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white"target="_blank"></a> 
