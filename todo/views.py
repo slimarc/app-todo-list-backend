@@ -9,7 +9,7 @@ class ListToDo(generics.ListAPIView):
     queryset = ToDo.objects.all()
     serializer_class = ToDoSerializer
 #att
-class DetailTodo(generics.RetrieveUpdateAPIView):
+class UpdateTodo(generics.RetrieveUpdateAPIView):
     queryset = ToDo.objects.all()
     serializer_class = ToDoSerializer
 #criar
