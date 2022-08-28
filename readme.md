@@ -29,7 +29,7 @@ Executa a criação de novas tarefas.
 http://localhost:8000/api-auth/create
 ``` 
 
-### BODY raw
+##### BODY raw
 
 ```
 {
@@ -48,7 +48,7 @@ Executa a leitura de uma tarefa já existente e insere as alterações. Perceba 
 http://localhost:8000/api-auth/id_tarefa/
 ```
 
-### BODY raw
+##### BODY raw
  
 ```
 {
@@ -72,11 +72,11 @@ http://localhost:8000/api-auth/delete/id_tarefa
 
 Além dos links disponibilizados, utilizei algumas outras fontes que me ajudaram a desenvolver este backend e integrar ao frontend. 
 
-- <p><a href="https://www.youtube.com/watch?v=evihDSZuO70" target="_blank"></p>
-- <p><a href="https://jacksongomesbr.gitbooks.io/desenvolvimento-web-front-end-com-angular/content/servicos.html" target="_blank"></p>
-- <p><a href="https://pypi.org/project/django-cors-headers/" target="_blank"></p>
-- <p><a href="https://www.youtube.com/watch?v=G_IyMUm7Za0&t=1095s" target="_blank"></p>
-- <p><a href="https://onebitcode.com/documentar-api-postman/" target="_blank"></p>
+-  [Integrate Django Rest API to Angular](https://www.youtube.com/watch?v=evihDSZuO70)
+-  [Services](https://jacksongomesbr.gitbooks.io/desenvolvimento-web-front-end-com-angular/content/servicos.html)
+-  [Django Cors Headers](https://pypi.org/project/django-cors-headers/)
+-  [To-Do List API using Django Rest Framework](https://www.youtube.com/watch?v=G_IyMUm7Za0&t=1095s)
+-  [Como documentar API usando o Postman](https://onebitcode.com/documentar-api-postman/)
 
 ## Autor 👨‍🎨:
 Ricardo Lima | Estudante de desenvolvimento
