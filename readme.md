@@ -60,7 +60,6 @@ http://localhost:8000/api-auth/id_tarefa/
     }
     ```
 
-
 ##DEL
 
 Executa a exclusão da tarefa.

@@ -4,4 +4,4 @@ from .models import *
 class ToDoSerializer(serializers.ModelSerializer):
     class Meta:
         model = ToDo
-        fields = ('id', 'Titulo', 'Descricao', 'Data', 'Completado')
+        fields = ('id', 'Titulo', 'Completado')

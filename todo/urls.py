@@ -3,7 +3,7 @@ from .views import *
 
 urlpatterns = [
     path('', ListToDo.as_view()),
+    path('<int:pk>', UpdateTodo.as_view()),
     path('create', CreateToDo.as_view()),
-    path('<int:pk>/', UpdateTodo.as_view()),
     path('delete/<int:pk>', DeleteToDo.as_view())
 ]
