@@ -34,8 +34,6 @@ http://localhost:8000/api-auth/create
 ```
 {
    "Titulo": "Testando",
-   "Descricao": "",
-   "Data": "2022-08-26",
    "Completado": false
 }
 ```
@@ -54,8 +52,6 @@ http://localhost:8000/api-auth/id_tarefa/
 {
    "id": 6,
    "Titulo": "Testando",
-   "Descricao": "Adicionando informações",
-   "Data": "2022-08-26",
    "Completado": false
 }
 ```
